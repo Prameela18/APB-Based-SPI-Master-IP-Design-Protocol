@@ -140,7 +140,7 @@ flowchart LR
     A[Parallel Transmit Data] --> B[Shift Register]
     C[MISO Input] --> B
     D[SCLK and SPI Mode] --> B
-    E[SS and Cthen ntrol Signals] --> B
+    E[SS and Control Signals] --> B
     B --> F[MOSI Output]
     B --> G[Parallel Receive Data]
 ```
