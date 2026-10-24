@@ -9,7 +9,7 @@ The project is divided into multiple RTL modules to provide a modular and reusab
 
 ## SPI CORE BLOCK DIAGRAM
 
-![SPI_Core_Block diagram](images/SPI_Core_Blockdiagram.png)
+![SPI_Core_Blockdiagram](images/SPI_Core_Blockdiagram.png)
 
 ## Project Objectives
 
@@ -26,25 +26,25 @@ The project is divided into multiple RTL modules to provide a modular and reusab
 
 The APB Slave block provides communication between the APB bus and the SPI Master IP. It handles APB read and write transactions, register access, and control and status information.
 
-![APB Slave Block Diagram](images/APB_Slave.png)
+![APB Slave Block_Diagram](Blockdiagrams/APB_Slave.png)
 
 ### 2. Baud Rate Generator
 
 The Baud Rate Generator generates the SPI serial clock (SCLK) based on the programmed baud rate divisor and SPI configuration settings.
 
-![BaudRate Generator Block Diagram](images/Baudrate_Generator.png)
+![BaudRate Generator Block Diagram](Blockdiagrams/Baudrate_Generator.png)
 
 ### 3. Slave Select
 
 The Slave Select block manages SPI slave selection and transfer control. It generates the slave-select signal and tracks the progress of data transfers.
 
-![SPI_Slave_Control_Select Block Diagram](images/SPI_Slave_Control_Select.png)
+![SPI_Slave_Control_Select Block Diagram](Blockdiagrams/SPI_Slave_Control_Select.png)
 
 ### 4. Shift Register
 
 The Shift Register handles serial data transmission through MOSI and serial data reception through MISO. It supports SPI clock polarity, clock phase, and data bit-order configuration.
 
-![Shift_Register Block Diagram](images/Shift_Register.png)
+![Shift_Register Block Diagram](Blockdiagrams/Shift_Register.png)
 
 ### 5. Top Module
 
@@ -114,7 +114,7 @@ APB-Based-SPI-Master-IP-Design/
 │   ├── Topmodule.v
 │   └── Topmodule_tb.v
 │
-├── images/
+├── Blockdiagrams/
 │   ├── top_module.png
 │   ├── apb_slave.png
 │   ├── baud_rate_generator.png
