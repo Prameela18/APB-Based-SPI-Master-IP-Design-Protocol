@@ -115,12 +115,12 @@ APB-Based-SPI-Master-IP-Design/
 │   └── Topmodule_tb.v
 │
 ├── images/
-│   ├── overall_block_diagram.png
+│   ├── top_module.png
 │   ├── apb_slave.png
 │   ├── baud_rate_generator.png
 │   ├── slave_select.png
 │   ├── shift_register.png
-│   └── top_module.png
+│   └── 
 │
 └── README.md
 ```
