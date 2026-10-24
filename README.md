@@ -9,7 +9,7 @@ The project is divided into multiple RTL modules to provide a modular and reusab
 
 ## SPI CORE BLOCK DIAGRAM
 
-![SPI_Core_Blockdiagram](images/SPI_Core_Blockdiagram.png)
+![SPI_Core_Blockdiagram](Blockdiagrams/SPI_Core_Blockdiagram.png)
 
 ## Project Objectives
 
